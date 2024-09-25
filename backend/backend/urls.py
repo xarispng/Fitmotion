@@ -15,6 +15,7 @@ router.register(r'ddates', DisabledDateViewSet, basename='ddate')
 router.register(r'reschedules', ReschedulesViewSet, basename='reschedules')
 
 urlpatterns = [
+    path("", home, name="home"),
     path("admin/", admin.site.urls),
     path("api/token/", TokenObtainPairView.as_view(), name="get_token"),
     path("api/token/refresh/", TokenRefreshView.as_view(), name="refresh"),

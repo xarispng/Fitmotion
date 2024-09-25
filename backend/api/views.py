@@ -376,3 +376,7 @@ class ReschedulesViewSet(viewsets.ModelViewSet):
             return Response(serializer.data)
         except Reschedules.DoesNotExist:
             return Response({"error": "Reschedules object not found for this user."}, status=404)
+        
+
+def home(request):
+    return Response("Welcome to the FitMotion app!")

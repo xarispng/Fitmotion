@@ -1,0 +1,85 @@
+.navbar {
+    background-color: #333;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar li {
+    flex: 1;
+    min-width: 0;
+}
+
+.navbar li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 6px 3px;
+    text-decoration: none;
+    height: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+.navbar li a:hover {
+    background-color: #111;
+}
+
+.navbar .logout {
+    margin-left: auto;
+}
+
+.navbar li a .v-icon {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        flex-wrap: wrap;
+    }
+    
+    .navbar li {
+        flex-basis: 20%;
+    }
+    
+    .navbar li a {
+        font-size: 13px;
+        padding: 8px 4px;
+    }
+    
+    .navbar li a .v-icon {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar li a {
+        flex-direction: column;
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    
+    .navbar li a .v-icon {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+}

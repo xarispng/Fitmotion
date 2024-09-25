@@ -1,0 +1,44 @@
+[
+    {
+      "model": "auth.user",
+      "pk": 1,
+      "fields": {
+        "username": "thanasis",
+        "password": "1234",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_superuser": true
+      }
+    },
+    {
+      "model": "api.profile",
+      "pk": 1,
+      "fields": {
+        "user": 1,
+        "name": "ΘΑΝΑΣΗΣ",
+        "surname": "ΧΑΣΑΠΗΣ",
+        "sex": "FEMALE"
+      }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+          "username": "harry",
+          "password": "1234",
+          "email": "admin@example.com",
+          "is_staff": true,
+          "is_superuser": true
+        }
+      },
+      {
+        "model": "api.profile",
+        "pk": 2,
+        "fields": {
+          "user": 2,
+          "name": "ΧΑΡΗΣ",
+          "surname": "ΠΑΝΑΓΙΩΤΟΠΟΥΛΟΣ",
+          "sex": "MALE"
+        }
+      }
+]

@@ -1,0 +1,29 @@
+.rule-card {
+    background-color: #000; 
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #e0e0e0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    opacity: 0.85; 
+    width: 70%; 
+    box-sizing: border-box;
+}
+
+.rule-card:first-child {
+    margin-top: 10px;
+}
+
+.rule-card h3 {
+    margin: 0 0 0;
+}
+
+.rule-card p {
+    margin: 0 0 0;
+}
+
+@media (max-width: 600px) {
+    .rule-card {
+        width: 100%;
+    }
+}

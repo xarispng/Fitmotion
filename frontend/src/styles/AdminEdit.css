@@ -1,0 +1,172 @@
+h2, h1 {
+    text-align: center;
+}
+
+.v-application--wrap {
+    flex: 1 1 auto;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.fixed-container {
+    height: calc(100vh);
+    margin-top: 100px;
+}
+
+.main-card{
+    margin-top: 10px; 
+    min-width: 650px !important;
+    max-width: 650px !important;
+}
+
+.narrow-button {
+    width: 30px !important;
+}
+
+.theme--light.v-application {
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.theme--light.v-card {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.v-card {
+    background-color: rgba(255, 255, 255, 1) !important;
+}
+
+.v-btn {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.v-dialog {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.v-toolbar-title {
+    width: 100%;
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+#innerbox {
+    max-width: 310px;
+    max-height: 370px;
+    display: inline-block;
+    width: 310px;
+    height: 370px;
+}
+
+@media (max-width: 600px) {
+    .center-content {
+        height: auto;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-card{
+        margin-top: 10px; 
+        min-width: 350px !important;
+        max-width: 350px !important;
+    }
+
+    #innerbox {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .v-list {
+        width: 100%;
+    }
+
+    .v-toolbar-title {
+        font-size: 0.9rem;
+    }
+    
+    .v-tab, .v-btn {
+        font-size: 0.8rem;
+    }
+
+    .v-toolbar {
+        padding: 0 8px;
+    }
+
+    .v-tab, .v-btn {
+        padding: 0 8px;
+    }
+}
+
+.custom-form-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.custom-form-container label {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.custom-form-container input[type=text],
+.custom-form-container input[type=number],
+.custom-form-container select {
+    width: 100%;
+    padding: 2px 20px;
+    margin: 1px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.v-btn[type="submit"] {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.switch-card {
+    background-color: white !important;
+    padding: 0; 
+    border-radius: 0; 
+    margin-top: auto;  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px !important;
+    height: 50px !important;
+}
+  
+.switch-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}

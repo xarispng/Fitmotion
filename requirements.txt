@@ -1,8 +1,8 @@
-asgiref @ file:///home/conda/feedstock_root/build_artifacts/asgiref_1711268871457/work
+asgiref==3.6.0
 chardet==5.2.0
-Django @ file:///home/conda/feedstock_root/build_artifacts/django_1715264198226/work
+Django==4.2.6
 django-cors-headers==4.4.0
-djangorestframework @ file:///home/conda/feedstock_root/build_artifacts/djangorestframework_1718812538421/work
+djangorestframework==3.14.0
 djangorestframework-simplejwt==5.3.1
 et-xmlfile==1.1.0
 openpyxl==3.1.5
@@ -12,6 +12,6 @@ PyJWT==2.9.0
 python-dotenv==1.0.1
 pytz==2024.1
 reportlab==4.2.2
-sqlparse @ file:///home/conda/feedstock_root/build_artifacts/sqlparse_1715013953229/work
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1717802530399/work
+sqlparse==0.4.4
+typing_extensions==4.5.0
 whitenoise==6.7.0
